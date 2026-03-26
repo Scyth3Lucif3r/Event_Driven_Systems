@@ -118,6 +118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fab0fbc235eb31347b64be0de50a1336, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upTarget: {x: 0, y: -1, z: 0}
+  upTarget: {x: 0, y: 1, z: 0}
   downTarget: {x: 0, y: -1, z: 0}
   speed: 1
