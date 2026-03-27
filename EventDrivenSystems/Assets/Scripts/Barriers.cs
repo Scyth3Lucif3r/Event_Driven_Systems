@@ -58,6 +58,9 @@ public class Barriers : MonoBehaviour
 
     public void Move(bool down)
     {
+        //Should be called whenever the the pressure plate for them is triggered.
+        //Unfortunately the debug log was never played, and so someway or somehow
+        //the listener never caught the invoked event from the pressure plate.
         Debug.Log("bingus");
         if (down)
         {

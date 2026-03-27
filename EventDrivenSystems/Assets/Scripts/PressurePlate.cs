@@ -21,10 +21,11 @@ public class PressurePlate : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        
+        //when a rigidbody enters the collider for the pressure plate
+        //toggle the state, then invoke the event
         toggleState = !toggleState;
 
         OnToggle.Invoke(toggleState);
-        Debug.Log(toggleState);
+        //Debug.Log(toggleState);
     }
 }
